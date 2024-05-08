@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/34ec4c9a25.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <p class="logo"><span>S</span>hashan<span>K_P</span>ortfoli<span>O</span></p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#fortfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Shashank Ojha</span></h1>
+                <p>Web<span> Developer</span> <a href="images/Shashank Ojha.pdf" download
+                        class="btn btn2 btn3">Download CV</a></span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------About section------------------>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subttitle">About Me</h1>
+                    <p>I'm Shashank Ojha.
+                        A web developer, I excel in crafting seamless digital experiences, leveraging my expertise in
+                        HTML, CSS, JavaScript and React to create visually stunning and user-friendly websites.
+                        Additionally,
+                        my proficiency extends in Java, Python and keen understanding of database management
+                        systems, I ensure data integrity and efficiency in all my projects. My passion for coding drives
+                        me to stay updated with the latest technologies and trends in the ever-evolving landscape of web
+                        development.</p>
+                    <br>
+
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>C, Java, Python</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, React.js, Bootstrap</li>
+                            <li><span>UX/UI</span><br>Web Interfaces</li>
+                            <li><span>Database</span><br>MySQL</li>
+                            <li><span>Relevant Skills</span><br>Data Structure and Algorithms, OPPs, GitHub, Operating
+                                System, Networking</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Intern</span><br>Code Alpha</li>
+                            <li><span>Intern</span><br>InterPe</li>
+                            <li><span>Intern</span><br>Oasis Infobyte</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Present</span><br>MCA from Integral University Lucknow</li>
+                            <li><span>2019-2022</span><br>BCA from Integral University Lucknow</li>
+                            <li><span>2018</span><br>Intermediate From Siddharhth Nagar</li>
+                            <li><span>2016</span><br>High School From Siddharhth Nagar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ----------------Services------------------->
+
+
+        <div id="services">
+            <div class="container">
+                <h1 class="subttitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p> I excel at designing websites that seamlessly adapt to different devices and screen sizes,
+                            ensuring a consistent user experience across desktops, tablets, and smartphones.
+                            Custom website design tailored to your brand and target audience.
+                            Responsive web design to ensure optimal user experience on all devices.
+                            Integration of interactive elements and engaging visuals to captivate visitors.
+                            Collaborative development process to bring your vision to life.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Intuitive and visually appealing UI design for seamless navigation.
+                            User-centered design approach to enhance usability and overall user satisfaction.
+                            Conducting thorough research and analysis to understand user behavior and preferences.
+                            Wireframing and prototyping to visualize and refine the user experience.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Website Redesign and Optimization</h2>
+                        <p>Evaluation of your existing website's design and functionality.
+                            Identification of areas for improvement and enhancement of user experience.
+                            Implementation of modern design trends and best practices.
+                            Optimization for faster page loading, improved search engine visibility, and higher
+                            conversions.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ---------------------Portfolio section------------ -->
+
+
+
+        <div id="fortfolio">
+            <div class="container">
+                <h1 class="subttitle">My Work</h1>
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="Images/work 1.png">
+                        <div class="layer">
+                            <h3>Resume Builder Website</h3>
+                            <p>Welcome to Build Resume, where crafting your professional resume is simple and
+                                effective. Our platform guides you through the process of entering your personal details
+                                smoothly. With our intuitive interface, you can easily customize your resume to
+                                highlight your skills and experiences.
+                            </p>
+                            <a href="https://build-resume-web.netlify.app"><i
+                                    class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/work 2.png">
+                        <div class="layer">
+                            <h3>E-commerce Website</h3>
+                            <p>Welcome to Redstore, your ultimate destination for online shopping.
+                                Explore a diverse range of products, curated with care to meet your every need. Shop
+                                with ease and confidence, knowing that quality and convenience are just a click away.
+                            </p>
+                            <a href="https://e-comm-redstore.netlify.app"><i
+                                    class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/work 3.png">
+                        <div class="layer">
+                            <h3>Pig Game</h3>
+                            <p>Welcome to Pig game, a dice game where players accumulate points with each roll until
+                                they roll a 1, forfeiting their turn. It's a fun and interactive way to enjoy some
+                                friendly competition, perfect for both solo play and with friends.</p>
+                            <a href="https://pig-game-w.netlify.app"><i
+                                    class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="container">
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="Images/work 4.png">
+                        <div class="layer">
+                            <h3>Shashank Blogs</h3>
+                            <p>Welcome to blog website, I've crafted a personal blog website tailored to showcase my
+                                passions, experiences, and expertise. It serves as a creative outlet for self-expression
+                                and reflection, allowing me to share my thoughts and insights with an online audience.
+                            </p>
+                            <a href="https://shashank-blogs.netlify.app"><i
+                                    class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/work 5.png">
+                        <div class="layer">
+                            <h3>To-Do List</h3>
+                            <p>I've built a user-friendly to-do list website to help efficiently manage tasks and boost
+                                productivity. With intuitive features and customizable options, users can easily
+                                organize, prioritize, and track their tasks from anywhere. This platform streamlines
+                                task management, allowing users to stay focused and achieve their goals effectively.
+                            </p>
+                            <a href="https://too-doo-list-web.netlify.app"><i
+                                    class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/work 6.png">
+                        <div class="layer">
+                            <h3>Number Gussing Game</h3>
+                            <p>I've created an exciting number guessing game where players try to guess the correct
+                                number within a specified range. With each guess, players receive hints to guide them
+                                closer to the target, adding suspense and excitement to the gameplay. It's a fun and
+                                challenging way to test your intuition and numerical skills!
+                            </p>
+                            <a href="https://num-gussing-game.netlify.app"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <a href="#" class="btn">Seen more</a> -->
+            </div>
+        </div>
+
+
+
+        <!-- -----------------------Contact Section------------------>
+
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>ojhashashank@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91 0123456789</p>
+                        <div class="social-icon">
+                            <a href="https://instagram.com/_shashank_ojha_?igshid=MzNlNGNkZWQ4Mg=="><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/shashank.ojha.754?mibextid=ZbWKwL"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/Ojhashashank123?t=T-v4xnYhEA4pN6hPcLoavQ&s=09"><i
+                                    class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://linkedin.com/in/shashank-ojha-b014031b5"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Shashank Ojha.pdf" download class="btn btn2 left">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @Shashank_Ojha | All Rights Reserved</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
